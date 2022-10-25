@@ -1,11 +1,11 @@
 # Working with the NiFi REST API(work in progress)
-Follow the Youtube video for this tutorial to learn the basic of working with the nifi-api.
+This video will cover the basic of working with the NiFi REST API.
 
 ## Requirements
-- Docker Desktop running
+- Docker Desktop
 - Visual Studio Code
 
-## VS Code Extersions
+## VS Code Extensions
 - Docker
 - Remote Development
 - Thunder Client
@@ -15,11 +15,11 @@ Follow the Youtube video for this tutorial to learn the basic of working with th
  1. Clone the repo.
  2. Run the NiFi container.
 ```bash
-docker compose up -v
+docker compose up
 ```
 3. Use the username and password from docker-compose.yml to access the NiFi UI.
 4. Watch the video
 
 
-## Resources
+## Links
 - [Apache NiFi Docs](https://nifi.apache.org/docs.html)
