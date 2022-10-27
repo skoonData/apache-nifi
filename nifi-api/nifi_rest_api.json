@@ -1,1 +1,209 @@
-{"client":"Thunder Client","collectionName":"NiFi","dateExported":"2022-10-25T05:38:21.286Z","version":"1.1","folders":[],"requests":[{"_id":"d1d57600-0f89-4889-a93c-20732966079c","colId":"c4bdb468-1b71-4b79-83f8-05d20c9b4aa2","containerId":"","name":"/access/config","url":"https://localhost:9443/nifi-api/access/config","method":"GET","sortNum":10000,"created":"2022-10-24T05:23:01.579Z","modified":"2022-10-25T05:31:27.916Z","headers":[{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)","isDisabled":true}],"params":[],"tests":[]},{"_id":"6c6c3a5f-84cb-4b2f-9060-e7c8b436db88","colId":"c4bdb468-1b71-4b79-83f8-05d20c9b4aa2","containerId":"","name":"/access/token","url":"https://localhost:9443/nifi-api/access/token?username=admin&password=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB","method":"POST","sortNum":20000,"created":"2022-10-24T05:23:38.047Z","modified":"2022-10-24T05:53:30.898Z","headers":[{"name":"Content-Type","value":"application/x-www-form-urlencoded"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)","isDisabled":true}],"params":[{"name":"username","value":"admin","isPath":false},{"name":"password","value":"ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB","isPath":false}],"tests":[]},{"_id":"fb60a95e-6e8c-4733-837c-e8434b75c26c","colId":"c4bdb468-1b71-4b79-83f8-05d20c9b4aa2","containerId":"","name":"/access/token/expiration","url":"https://localhost:9443/nifi-api/access/token/expiration","method":"GET","sortNum":22500,"created":"2022-10-24T05:56:18.703Z","modified":"2022-10-25T05:31:05.914Z","headers":[{"name":"Authorization","value":"Bearer eyJraWQiOiI3M2RmMWNjNi05ODFiLTQ1ODAtOGUwZS0zMjY2NGJlMzY3YTIiLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJuYmYiOjE2NjY2NzU4NDYsImlzcyI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTY2NjcwNDY0NiwiaWF0IjoxNjY2Njc1ODQ2LCJqdGkiOiI4ZDA4Yzc4OC0wN2I0LTRlODctYmNhOS1iYzRhZDYwOTZiODMifQ.FPNXOM_xybfj0r9VnLW32Hm4XUKipo_1fBGgtwVZcSXPeMRs6Ae1EHWknY6hNA6QCGW7SnaEksQw5P-4GFni8CRTWoKCLIoqNKfkBjpQcim62ShGlPbj6gBM28o7shXncb49uQKPHoH81fdv08C26U2N3jOJxzda2Lu2Z3aaLv8PcPAYG-Ub8rPzjFRELaQYBuCk6wMT85_F49u35Uw5rmPJ4cY1ESiE8DnCvHvUJ-z7JiU5zNfpuh49F--LfZUM8xv4FMXs11P_UH2FhAti3dcnDNu7LlPM-VXlKHSinmO_wMmIp7Be3D-A51cpIoaNjofiF-lNJVi34Trkd2F9faQlXQefwRUioolnv2p4jssnWOzlx5A3ybflv2RrKQ632wFNewy-OmoYp-n-TZpJyWFa6GYdUubNLvwUdTeUkoy0BzaahTeR36-QfRfiPVxoOBV-koMeNtDlqTNRkCUcyE3Z-R6jlShPAZWJAP2WBbf1fnzFDP1BHRSuLnEYRnMD3ExWwOG4PtT37IiGfKt_UP_knvVzLlQDPO4syAGKV2Dr8mm1ujBWUcntN0RjLzgL0CwzYeypzZ9CQqri6Geld7xxQ2y_k1kZoMsx24QzyW_fw_STO9oQYidee-DZiXEoKg0vt0wI7ppHNO_oEvPrVafaSzKXP68gpN9HSWKozXQ"}],"params":[],"tests":[]},{"_id":"ec37d4ca-999a-4e33-9204-e73330e55744","colId":"c4bdb468-1b71-4b79-83f8-05d20c9b4aa2","containerId":"","name":"/system-diagnostics","url":"https://localhost:9443/nifi-api/system-diagnostics","method":"GET","sortNum":30000,"created":"2022-10-24T05:26:07.491Z","modified":"2022-10-25T05:31:40.709Z","headers":[{"name":"Authorization","value":"Bearer eyJraWQiOiI3M2RmMWNjNi05ODFiLTQ1ODAtOGUwZS0zMjY2NGJlMzY3YTIiLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJuYmYiOjE2NjY2NzU4NDYsImlzcyI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTY2NjcwNDY0NiwiaWF0IjoxNjY2Njc1ODQ2LCJqdGkiOiI4ZDA4Yzc4OC0wN2I0LTRlODctYmNhOS1iYzRhZDYwOTZiODMifQ.FPNXOM_xybfj0r9VnLW32Hm4XUKipo_1fBGgtwVZcSXPeMRs6Ae1EHWknY6hNA6QCGW7SnaEksQw5P-4GFni8CRTWoKCLIoqNKfkBjpQcim62ShGlPbj6gBM28o7shXncb49uQKPHoH81fdv08C26U2N3jOJxzda2Lu2Z3aaLv8PcPAYG-Ub8rPzjFRELaQYBuCk6wMT85_F49u35Uw5rmPJ4cY1ESiE8DnCvHvUJ-z7JiU5zNfpuh49F--LfZUM8xv4FMXs11P_UH2FhAti3dcnDNu7LlPM-VXlKHSinmO_wMmIp7Be3D-A51cpIoaNjofiF-lNJVi34Trkd2F9faQlXQefwRUioolnv2p4jssnWOzlx5A3ybflv2RrKQ632wFNewy-OmoYp-n-TZpJyWFa6GYdUubNLvwUdTeUkoy0BzaahTeR36-QfRfiPVxoOBV-koMeNtDlqTNRkCUcyE3Z-R6jlShPAZWJAP2WBbf1fnzFDP1BHRSuLnEYRnMD3ExWwOG4PtT37IiGfKt_UP_knvVzLlQDPO4syAGKV2Dr8mm1ujBWUcntN0RjLzgL0CwzYeypzZ9CQqri6Geld7xxQ2y_k1kZoMsx24QzyW_fw_STO9oQYidee-DZiXEoKg0vt0wI7ppHNO_oEvPrVafaSzKXP68gpN9HSWKozXQ"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)","isDisabled":true}],"params":[],"tests":[]},{"_id":"f3b7cf42-7276-42eb-8f1e-0c000987c8d2","colId":"c4bdb468-1b71-4b79-83f8-05d20c9b4aa2","containerId":"","name":"/flow/processors/{id}/status","url":"https://localhost:9443/nifi-api/flow/processors/{id}/status","method":"GET","sortNum":40000,"created":"2022-10-24T06:09:35.237Z","modified":"2022-10-25T05:33:31.555Z","headers":[{"name":"Authorization","value":"Bearer eyJraWQiOiI3M2RmMWNjNi05ODFiLTQ1ODAtOGUwZS0zMjY2NGJlMzY3YTIiLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJuYmYiOjE2NjY2NzU4NDYsImlzcyI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTY2NjcwNDY0NiwiaWF0IjoxNjY2Njc1ODQ2LCJqdGkiOiI4ZDA4Yzc4OC0wN2I0LTRlODctYmNhOS1iYzRhZDYwOTZiODMifQ.FPNXOM_xybfj0r9VnLW32Hm4XUKipo_1fBGgtwVZcSXPeMRs6Ae1EHWknY6hNA6QCGW7SnaEksQw5P-4GFni8CRTWoKCLIoqNKfkBjpQcim62ShGlPbj6gBM28o7shXncb49uQKPHoH81fdv08C26U2N3jOJxzda2Lu2Z3aaLv8PcPAYG-Ub8rPzjFRELaQYBuCk6wMT85_F49u35Uw5rmPJ4cY1ESiE8DnCvHvUJ-z7JiU5zNfpuh49F--LfZUM8xv4FMXs11P_UH2FhAti3dcnDNu7LlPM-VXlKHSinmO_wMmIp7Be3D-A51cpIoaNjofiF-lNJVi34Trkd2F9faQlXQefwRUioolnv2p4jssnWOzlx5A3ybflv2RrKQ632wFNewy-OmoYp-n-TZpJyWFa6GYdUubNLvwUdTeUkoy0BzaahTeR36-QfRfiPVxoOBV-koMeNtDlqTNRkCUcyE3Z-R6jlShPAZWJAP2WBbf1fnzFDP1BHRSuLnEYRnMD3ExWwOG4PtT37IiGfKt_UP_knvVzLlQDPO4syAGKV2Dr8mm1ujBWUcntN0RjLzgL0CwzYeypzZ9CQqri6Geld7xxQ2y_k1kZoMsx24QzyW_fw_STO9oQYidee-DZiXEoKg0vt0wI7ppHNO_oEvPrVafaSzKXP68gpN9HSWKozXQ"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)","isDisabled":true}],"params":[{"name":"id","value":"0d99434c-0184-1000-2258-5a048916406b","isPath":true}],"tests":[]},{"_id":"e15cbc45-8baa-422a-a8f3-f7dab6977f80","colId":"c4bdb468-1b71-4b79-83f8-05d20c9b4aa2","containerId":"","name":"/processors/run-status-details/queries","url":"https://localhost:9443/nifi-api/processors/run-status-details/queries","method":"POST","sortNum":45000,"created":"2022-10-24T06:23:12.940Z","modified":"2022-10-25T05:34:29.184Z","headers":[{"name":"Authorization","value":"Bearer eyJraWQiOiI3M2RmMWNjNi05ODFiLTQ1ODAtOGUwZS0zMjY2NGJlMzY3YTIiLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJuYmYiOjE2NjY2NzU4NDYsImlzcyI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTY2NjcwNDY0NiwiaWF0IjoxNjY2Njc1ODQ2LCJqdGkiOiI4ZDA4Yzc4OC0wN2I0LTRlODctYmNhOS1iYzRhZDYwOTZiODMifQ.FPNXOM_xybfj0r9VnLW32Hm4XUKipo_1fBGgtwVZcSXPeMRs6Ae1EHWknY6hNA6QCGW7SnaEksQw5P-4GFni8CRTWoKCLIoqNKfkBjpQcim62ShGlPbj6gBM28o7shXncb49uQKPHoH81fdv08C26U2N3jOJxzda2Lu2Z3aaLv8PcPAYG-Ub8rPzjFRELaQYBuCk6wMT85_F49u35Uw5rmPJ4cY1ESiE8DnCvHvUJ-z7JiU5zNfpuh49F--LfZUM8xv4FMXs11P_UH2FhAti3dcnDNu7LlPM-VXlKHSinmO_wMmIp7Be3D-A51cpIoaNjofiF-lNJVi34Trkd2F9faQlXQefwRUioolnv2p4jssnWOzlx5A3ybflv2RrKQ632wFNewy-OmoYp-n-TZpJyWFa6GYdUubNLvwUdTeUkoy0BzaahTeR36-QfRfiPVxoOBV-koMeNtDlqTNRkCUcyE3Z-R6jlShPAZWJAP2WBbf1fnzFDP1BHRSuLnEYRnMD3ExWwOG4PtT37IiGfKt_UP_knvVzLlQDPO4syAGKV2Dr8mm1ujBWUcntN0RjLzgL0CwzYeypzZ9CQqri6Geld7xxQ2y_k1kZoMsx24QzyW_fw_STO9oQYidee-DZiXEoKg0vt0wI7ppHNO_oEvPrVafaSzKXP68gpN9HSWKozXQ"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)","isDisabled":true},{"name":"Content-Type","value":"application/json"}],"params":[],"body":{"type":"json","raw":"{\n    \"processorIds\": [\"0d99434c-0184-1000-2258-5a048916406b\"]\n}","form":[]},"tests":[]},{"_id":"9a8efaef-a4a2-470d-b347-a61202f702e6","colId":"c4bdb468-1b71-4b79-83f8-05d20c9b4aa2","containerId":"","name":"/processors/{id}/run-status","url":"https://localhost:9443/nifi-api/processors/{id}/run-status","method":"PUT","sortNum":50000,"created":"2022-10-24T06:14:25.477Z","modified":"2022-10-25T05:36:39.619Z","headers":[{"name":"Authorization","value":"Bearer eyJraWQiOiI3M2RmMWNjNi05ODFiLTQ1ODAtOGUwZS0zMjY2NGJlMzY3YTIiLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJuYmYiOjE2NjY2NzU4NDYsImlzcyI6IlNpbmdsZVVzZXJMb2dpbklkZW50aXR5UHJvdmlkZXIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTY2NjcwNDY0NiwiaWF0IjoxNjY2Njc1ODQ2LCJqdGkiOiI4ZDA4Yzc4OC0wN2I0LTRlODctYmNhOS1iYzRhZDYwOTZiODMifQ.FPNXOM_xybfj0r9VnLW32Hm4XUKipo_1fBGgtwVZcSXPeMRs6Ae1EHWknY6hNA6QCGW7SnaEksQw5P-4GFni8CRTWoKCLIoqNKfkBjpQcim62ShGlPbj6gBM28o7shXncb49uQKPHoH81fdv08C26U2N3jOJxzda2Lu2Z3aaLv8PcPAYG-Ub8rPzjFRELaQYBuCk6wMT85_F49u35Uw5rmPJ4cY1ESiE8DnCvHvUJ-z7JiU5zNfpuh49F--LfZUM8xv4FMXs11P_UH2FhAti3dcnDNu7LlPM-VXlKHSinmO_wMmIp7Be3D-A51cpIoaNjofiF-lNJVi34Trkd2F9faQlXQefwRUioolnv2p4jssnWOzlx5A3ybflv2RrKQ632wFNewy-OmoYp-n-TZpJyWFa6GYdUubNLvwUdTeUkoy0BzaahTeR36-QfRfiPVxoOBV-koMeNtDlqTNRkCUcyE3Z-R6jlShPAZWJAP2WBbf1fnzFDP1BHRSuLnEYRnMD3ExWwOG4PtT37IiGfKt_UP_knvVzLlQDPO4syAGKV2Dr8mm1ujBWUcntN0RjLzgL0CwzYeypzZ9CQqri6Geld7xxQ2y_k1kZoMsx24QzyW_fw_STO9oQYidee-DZiXEoKg0vt0wI7ppHNO_oEvPrVafaSzKXP68gpN9HSWKozXQ"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)","isDisabled":true},{"name":"Content-Type","value":"application/json"}],"params":[{"name":"id","value":"0d99434c-0184-1000-2258-5a048916406b","isPath":true}],"body":{"type":"json","raw":"{\n  \"revision\": {\n    \"version\": 15,\n    \"lastModifier\": \"steven\"\n  },\n  \"state\": \"RUN_ONCE\"\n}","form":[]},"tests":[]}]}
+{
+    "client": "Thunder Client",
+    "collectionName": "NiFi",
+    "dateExported": "2022-10-25T05:38:21.286Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d1d57600-0f89-4889-a93c-20732966079c",
+            "colId": "c4bdb468-1b71-4b79-83f8-05d20c9b4aa2",
+            "containerId": "",
+            "name": "/access/config",
+            "url": "https://localhost:9443/nifi-api/access/config",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-10-24T05:23:01.579Z",
+            "modified": "2022-10-25T05:31:27.916Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6c6c3a5f-84cb-4b2f-9060-e7c8b436db88",
+            "colId": "c4bdb468-1b71-4b79-83f8-05d20c9b4aa2",
+            "containerId": "",
+            "name": "/access/token",
+            "url": "https://localhost:9443/nifi-api/access/token?username=admin&password=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2022-10-24T05:23:38.047Z",
+            "modified": "2022-10-24T05:53:30.898Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "username",
+                    "value": "admin",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "fb60a95e-6e8c-4733-837c-e8434b75c26c",
+            "colId": "c4bdb468-1b71-4b79-83f8-05d20c9b4aa2",
+            "containerId": "",
+            "name": "/access/token/expiration",
+            "url": "https://localhost:9443/nifi-api/access/token/expiration",
+            "method": "GET",
+            "sortNum": 22500,
+            "created": "2022-10-24T05:56:18.703Z",
+            "modified": "2022-10-25T05:31:05.914Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ec37d4ca-999a-4e33-9204-e73330e55744",
+            "colId": "c4bdb468-1b71-4b79-83f8-05d20c9b4aa2",
+            "containerId": "",
+            "name": "/system-diagnostics",
+            "url": "https://localhost:9443/nifi-api/system-diagnostics",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2022-10-24T05:26:07.491Z",
+            "modified": "2022-10-25T05:31:40.709Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": ""
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f3b7cf42-7276-42eb-8f1e-0c000987c8d2",
+            "colId": "c4bdb468-1b71-4b79-83f8-05d20c9b4aa2",
+            "containerId": "",
+            "name": "/flow/processors/{id}/status",
+            "url": "https://localhost:9443/nifi-api/flow/processors/{id}/status",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2022-10-24T06:09:35.237Z",
+            "modified": "2022-10-25T05:33:31.555Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": ""
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "0d99434c-0184-1000-2258-5a048916406b",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "e15cbc45-8baa-422a-a8f3-f7dab6977f80",
+            "colId": "c4bdb468-1b71-4b79-83f8-05d20c9b4aa2",
+            "containerId": "",
+            "name": "/processors/run-status-details/queries",
+            "url": "https://localhost:9443/nifi-api/processors/run-status-details/queries",
+            "method": "POST",
+            "sortNum": 45000,
+            "created": "2022-10-24T06:23:12.940Z",
+            "modified": "2022-10-25T05:34:29.184Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": ""
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"processorIds\": [\"0d99434c-0184-1000-2258-5a048916406b\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9a8efaef-a4a2-470d-b347-a61202f702e6",
+            "colId": "c4bdb468-1b71-4b79-83f8-05d20c9b4aa2",
+            "containerId": "",
+            "name": "/processors/{id}/run-status",
+            "url": "https://localhost:9443/nifi-api/processors/{id}/run-status",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2022-10-24T06:14:25.477Z",
+            "modified": "2022-10-25T05:36:39.619Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": ""
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "0d99434c-0184-1000-2258-5a048916406b",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"revision\": {\n    \"version\": 15,\n    \"lastModifier\": \"steven\"\n  },\n  \"state\": \"RUN_ONCE\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
