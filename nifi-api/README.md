@@ -2,11 +2,8 @@
 This video will get you started working with the NiFi Rest API 1.18.0
 
 ### Requirements
-- WSL 2
-- Ubuntu 22.04 distro
 - Docker Desktop
 - VS Code
-
 
 ### VS Code Extensions
 - Local
