@@ -1,4 +1,4 @@
-# Working with the NiFi REST API(work in progress)
+# Working with the NiFi REST API
 This video will get you started working with the NiFi Rest API 1.18.0
 
 ### Requirements
