@@ -1,14 +1,19 @@
 # Working with the NiFi REST API(work in progress)
-This video will cover the basic of working with the NiFi REST API.
+This video will get you started working with the NiFi Rest API 1.18.0
 
 ### Requirements
+- WSL 2
+- Ubuntu 22.04 distro
 - Docker Desktop
-- Visual Studio Code
+- VS Code
+
 
 ### VS Code Extensions
-- Docker
-- Remote Development
-- Thunder Client
+- Local
+    - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+- WSL:Ubuntu-20.04
+    - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) 
+    - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
 ### Environment Setup
  1. Clone the repo.
